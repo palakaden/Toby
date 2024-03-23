@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+</head>
+<body>
+    <table>
+        <tr>
+            <td><a href="{% url 'WebAdmin:districtInsertSelect' %}">District</a> </td>
+        </tr>
+        <tr>
+            <td><a href="{% url 'WebAdmin:placeInsertSelect' %}">Place</a> </td>
+        </tr>
+        <tr>
+            <td><a href="{% url 'WebAdmin:adminInsertSelect' %}">AdminRegistration</a> </td>
+        </tr>
+        <tr>
+            <td><a href="{% url 'WebAdmin:userListNew' %}">UserListNew</a></td>
+        </tr>
+        <tr>
+            <td><a href="{% url 'WebAdmin:userListAccepted' %}">UserListAccepted</a></td>
+        </tr>
+        <tr>
+            <td><a href="{% url 'WebAdmin:userListRejected' %}">UserListRejected</a></td>
+        </tr>
+    </table>
+</body>
+</html>
